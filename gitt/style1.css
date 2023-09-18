@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1240px;
+    align-items: center;
+    gap: 35px;
+    margin-top: 40px;
+}
+
+.main_container {
+    margin: 0 auto;
+    max-width: 1240px;
+}
+
+.header_container img {
+    width: 46px;
+    height: 71px;
+}
+
+.bg {
+    background-image: url(./img/image\ 2.png);
+    position: absolute;
+    width: 100%;
+}
+
+.header_container nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    opacity: 0.5;
+}
+
+.header_container nav ul a {
+    color: white;
+}
+
+.text {
+    margin-top: 100px;
+    color:white;
+    font-size: 36px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.text1 {
+    margin-top: 50px;
+    color:white;
+    font-size: 16px; 
+    width: 423px;
+    opacity: 0.8;
+    line-height: 25px;
+}
+
+.text2 {
+    margin-top: 40px;
+    color:white;
+    font-size: 16px; 
+    width: 423px;
+    opacity: 0.8;
+    line-height: 25px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.texts {
+    display: flex;
+    color: white;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.text3 {
+    width: 132px;
+    line-height: 25px;
+    opacity: 0.8;
+}
+
+.trailer {
+    background-image: url(./img/Rectangle\ 2.jpg);
+    width: 356px;
+    border-radius: 5px;
+    height: 205px;
+    margin-top: 50px;
+}
